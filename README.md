@@ -12,6 +12,7 @@ By default, a car will be serviced by a server of its own type. However, if that
 * If the other server is also busy, the car will join the queue of its own server (i.e. a sedan cannot join the SUV server's queue)
 
 The arrival time of the cars is distributed as:
+
 | Arrival time  | Probability   |
 | ------------- |:-------------:|
 | 1             | 25            |
@@ -20,6 +21,7 @@ The arrival time of the cars is distributed as:
 | 4             | 15            |
 
 The service times of the sedan and SUV servers are distributed as:
+
 | Service time  | Probability   |
 | ------------- |:-------------:|
 | 2             | 30            |
