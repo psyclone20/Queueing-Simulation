@@ -5,6 +5,7 @@ A Java program that simulates the working of a multi-server queueing model.
 Cars (sedans or SUV's) arrive at random at a service station, where they are serviced by one of the following two servers:
 * Sedan server
 * SUV server
+
 The sedan server provides faster service as compared to the SUV server.
 
 By default, a car will be serviced by a server of its own type. However, if that server is currently busy, the following may occur:
